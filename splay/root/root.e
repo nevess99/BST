@@ -27,7 +27,7 @@ feature {NONE} -- Initialization
 			add_test (create {STARTER_TESTS}.make)
 
 			add_test (create {BASIC_TESTS}.make)
---			add_test (create {INTERMEDIATE_TESTS}.make)
+			add_test (create {INTERMEDIATE_TESTS}.make)
 			add_test (create {ADVANCED_TESTS}.make)
 
 			show_browser
