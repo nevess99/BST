@@ -2,7 +2,7 @@ note
 	description: "[
 		This class represents the combination of test cases of units (classes) related to Lab1.
 	]"
-	author: "Jinho Hwang and Jackie Wang"
+	author: "nevess99"
 	date: "$Date$"
 	revision: "$Revision$"
 
@@ -23,8 +23,12 @@ feature {NONE} -- Initialization
 	make
 			-- Run app
 		do
-			add_test (create {STARTER_TESTS}.make)
 			add_test (create {EXAMPLE_TESTS}.make)
+			add_test (create {STARTER_TESTS}.make)
+
+			add_test (create {BASIC_TESTS}.make)
+--			add_test (create {INTERMEDIATE_TESTS}.make)
+			add_test (create {ADVANCED_TESTS}.make)
 
 			show_browser
 			run_espec

@@ -1,6 +1,6 @@
 note
 	description: "Test envrionment for test cases."
-	author: "Jinho Hwang"
+	author: "nevess99"
 	date: "$Date$"
 	revision: "$Revision$"
 
